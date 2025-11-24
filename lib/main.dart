@@ -34,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _incrementCounter() {
     setState(() {
-      _counter++;
+      _counter += 2;
     });
   }
 
@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
           mainAxisAlignment: .center,
           children: [
-            const Text('You have pushed the button this many times:'),
+            const Text('You have pushed the button the following number of times divided by 2:'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
