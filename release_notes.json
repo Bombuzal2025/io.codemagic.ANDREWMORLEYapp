@@ -1,0 +1,10 @@
+[
+    {
+        "language": "en-GB",
+        "text": "British English release notes text. First use of Codemagic CI/CD system, very basic app, using very cool tools"
+    },
+    {
+        "language": "en-US",
+        "text": "The US English release notes text. First use of Codemagic CI/CD system, very basic app, using very cool tools"
+    }
+]
