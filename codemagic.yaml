@@ -9,7 +9,7 @@ workflows:
         - app_vars
       vars:
         PACKAGE_NAME: "io.codemagic.andrew_morley_app"
-      flutter: 3.38.0
+      flutter: 3.38.3
     scripts:
       - name: Set up local.properties
         script: | 
