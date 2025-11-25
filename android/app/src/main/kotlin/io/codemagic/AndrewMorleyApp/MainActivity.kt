@@ -1,4 +1,4 @@
-package io.codemagic.andrew_morley_app
+package io.codemagic.AndrewMorleyApp
 
 import io.flutter.embedding.android.FlutterActivity
 
