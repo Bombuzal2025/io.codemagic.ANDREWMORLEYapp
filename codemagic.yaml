@@ -6,7 +6,7 @@ workflows:
       android_signing:
         - upload
       vars:
-        PACKAGE_NAME: "io.codemagic.andrew_morley_app"
+        PACKAGE_NAME: "io.codemagic.AndrewMorleyApp"
       groups:
         - firebase_credentials
       flutter: 3.38.3
