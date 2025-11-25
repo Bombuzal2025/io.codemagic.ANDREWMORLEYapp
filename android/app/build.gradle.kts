@@ -15,7 +15,7 @@ plugins {
 }
 
 android {
-    namespace = "io.codemagic.andrew_morley_app"
+    namespace = "io.codemagic.AndrewMorleyApp"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -32,7 +32,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "io.codemagic.andrew_morley_app"
+        applicationId = "io.codemagic.AndrewMorleyApp"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
