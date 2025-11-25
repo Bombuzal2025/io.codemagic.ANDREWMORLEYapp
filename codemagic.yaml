@@ -5,8 +5,6 @@ workflows:
     environment:
       android_signing:
         - upload
-      groups:
-        - app_vars
       vars:
         PACKAGE_NAME: "io.codemagic.andrew_morley_app"
       groups:
