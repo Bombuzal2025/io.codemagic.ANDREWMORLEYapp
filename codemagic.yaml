@@ -9,6 +9,8 @@ workflows:
         - app_vars
       vars:
         PACKAGE_NAME: "io.codemagic.andrew_morley_app"
+      groups:
+        - firebase_credentials
       flutter: 3.38.3
     scripts:
       - name: Set up local.properties
@@ -34,3 +36,9 @@ workflows:
         notify:
           success: true
           failure: false
+      firebase:
+        firebase_service_account: $FIREBASE_SERVICE_ACCOUNT
+        android:
+          app_id: 1:163547311856:android:5d83dec0fd2beb089a1c35      
+          groups: 
+            - androidTesters
