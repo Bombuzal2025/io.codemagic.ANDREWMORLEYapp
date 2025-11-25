@@ -29,7 +29,7 @@ workflows:
     publishing:
       email:
         recipients:
-          - portchesterroad@gmail.com
+          - kevin@nevercode.io
         notify:
           success: true
           failure: false
